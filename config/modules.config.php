@@ -11,7 +11,15 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
+    'Zend\Paginator',
+    'Zend\Hydrator',
+    'Zend\Filter',
     'Zend\Router',
     'Zend\Validator',
+    'ZF\ApiProblem',
+    'ZF\ContentNegotiation',
+    'ZF\MvcAuth',
+    'ZF\Hal',
+    'ZF\Rest',
     'Application',
 ];
